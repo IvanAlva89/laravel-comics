@@ -1,6 +1,21 @@
-.general-hero {
-    height: 390px;
-    background-image: url('../images/bg-hero-home.jpg');
-    background-size: cover;
-    background-position: center;
+.wrap-home {
+    font-size: 13px;
+    background-image: linear-gradient(
+        to bottom,
+        $darkblue 0%,
+        $darkblue 50%,
+        $white 50%,
+        $white 100%
+    );
+    .general-hero {
+        height: 390px;
+        background-image: url('../images/bg-hero-home.jpg');
+        background-size: cover;
+        background-position: center;
+        img {
+            position: relative;
+            top: 140px;
+            left: 150px;
+        }
+    }
 }

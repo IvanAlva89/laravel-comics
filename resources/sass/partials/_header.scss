@@ -1,0 +1,55 @@
+.main-header {
+    font-size: 15px;
+    .overall {
+        background: $darkblue;
+        font-size: 11px;
+        text-align: right;
+        .container {
+            a {
+                font-weight: 700;
+                margin-left: 50px;
+            }
+        }
+    }
+    .container {
+        justify-content: space-between;
+        padding: 10px;
+        .navbar-brand {
+            img {
+                width: 80px;
+                vertical-align: middle;
+            }
+        }
+        .navbar-nav {
+            justify-content: space-between;
+            padding: 20px 0;
+            li {
+                margin: 0 14px;
+                a {
+                    color: $lightblack;
+                    font-weight: 700;
+                    i {
+                        color: $darkblue;
+                        margin-left: 3px;
+                    }
+                }
+            }
+        }
+        .search {
+            color: $lightblack;
+            border-bottom: 3px solid $darkblue;
+            padding: 35px 0 20px;
+            height: 0;
+            input {
+                border: none;
+                width: 90px;
+                text-align: right;
+                &::placeholder {
+                    font-size: 16px;
+                    color: $black;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

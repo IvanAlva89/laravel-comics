@@ -2,9 +2,11 @@
 @import 'partials/globals';
 @import 'partials/utilities';
 
-
-//PAGE
+//PAGES
+@import 'partials/header';
+@import 'partials/footer';
 
 //SECTIONS / COMPONENTS
 @import 'partials/general-hero';
-@import 'partials/comics-list';
+@import 'partials/comics';
+@import 'partials/details';

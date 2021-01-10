@@ -5,6 +5,10 @@
     padding: 0 1rem;
 }
 
+.flex {
+    display: flex;
+}
+
 //SPACERS
 @each $size in 0, 1, 2, 3, 4, 6 {
     .mt-#{$size} {
